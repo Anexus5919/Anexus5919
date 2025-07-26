@@ -1,12 +1,26 @@
-<h1 align="center">Hi there, I'm Adarsh Singh 👋</h1>
-<h3 align="center">Software Developer | Web & App Developer | AI Enthusiast</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=700&lines=console.log(%22Hello%2C%20World!%22);Adarsh%20Singh%20here!" alt="Typing SVG" />
+</p>
 
----
+<br/>
 
-🔭 I’m currently working on **full-stack projects** and exploring **LLMs and OS development**  
-🌱 Actively learning **Data Structures & Algorithms**, **App Development**, and **LLM building**  
-📫 Reach me at: **anexus5919@gmail.com**  
-🌍 Based in: **India**
+<div align="center">
+
+  <table>
+    <tr>
+      <td width="60%">
+        🔭 I'm currently working on <strong>full-stack projects</strong> and exploring <strong>LLMs and OS development</strong><br/><br/>
+        🌱 Actively learning <strong>Data Structures & Algorithms</strong>, <strong>App Development</strong>, and <strong>LLM building</strong><br/><br/>
+        📫 Reach me at: <strong>anexus5919@gmail.com</strong><br/><br/>
+        🌍 Based in: <strong>India</strong>
+      </td>
+      <td align="right">
+        <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="380" alt="Coding Cat"/>
+      </td>
+    </tr>
+  </table>
+
+</div>
 
 ---
 
@@ -14,13 +28,13 @@
 
 <p align="left">
   <a href="https://linkedin.com/in/adarsh-singh-80b339332" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn" />
-  </a>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.leetcode.com/adarsh5919" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-orange?logo=leetcode&style=for-the-badge" alt="LeetCode" />
-  </a>
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" alt="LeetCode" />
+  </a>&nbsp;&nbsp;
   <a href="https://auth.geeksforgeeks.org/user/anexus3l38" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-darkgreen?logo=geeksforgeeks&style=for-the-badge" alt="GeeksforGeeks" />
+    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?logo=geeksforgeeks&logoColor=white&style=for-the-badge" alt="GeeksforGeeks" />
   </a>
 </p>
 
@@ -48,20 +62,12 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anexus5919&layout=compact&theme=default" alt="Top Languages" />
-</p>
-
----
-
 ### 🚀 A Bit More About Me
 
 - 💡 I love turning ideas into reality through code  
 - 🤖 Building with purpose — from useful tools to creative web experiences  
-- 🧠 Constantly seeking to grow as a **developer** and **problem-solver**
+- 🧠 Constantly seeking to grow as a <strong>developer</strong> and <strong>problem-solver</strong>
 
 ---
 
-> _“Code is like humor. When you have to explain it, it’s bad.” — Cory House_
+> _"Code is like humor. When you have to explain it, it's bad." — Cory House_
