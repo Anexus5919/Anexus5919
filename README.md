@@ -65,9 +65,9 @@
 ### 🚀 A Bit More About Me
 
 - 💡 I love turning ideas into reality through code  
-- 🤖 Building with purpose — from useful tools to creative web experiences  
+- 🤖 Building with purpose - from useful tools to creative web experiences  
 - 🧠 Constantly seeking to grow as a <strong>developer</strong> and <strong>problem-solver</strong>
 
 ---
 
-> _"Code is like humor. When you have to explain it, it's bad." — Cory House_
+> _"Code is like humor. When you have to explain it, it's bad." - Cory House_
