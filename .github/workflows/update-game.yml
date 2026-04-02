@@ -2,8 +2,8 @@ name: Update Space Shooter
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight UTC
-  workflow_dispatch:        # allows manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -15,6 +15,6 @@ jobs:
 
       - uses: czl9707/gh-space-shooter@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: gh-space-shooter.webp
           username: Anexus5919
