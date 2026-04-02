@@ -2,7 +2,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=700&lines=console.log(%22Hello%2C%20World!%22);Adarsh%20Singh%20here!" alt="Typing SVG" />
 </p>
 
-<br/>
+<img align="center" width="100%" src="gh-space-shooter.webp" />
+
+---
 
 <div align="center">
 
