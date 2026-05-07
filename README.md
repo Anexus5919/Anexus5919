@@ -33,14 +33,11 @@
   <a href="https://linkedin.com/in/adarsh-singh-80b339332" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
   </a>&nbsp;&nbsp;
-  <a href="https://www.leetcode.com/adarsh5919" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" alt="LeetCode" />
-  </a>&nbsp;&nbsp;
-  <a href="https://auth.geeksforgeeks.org/user/anexus3l38" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?logo=geeksforgeeks&logoColor=white&style=for-the-badge" alt="GeeksforGeeks" />
-  </a>&nbsp;&nbsp;
   <a href="https://anexus-portfolio.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" alt="Portfolio" />
+  </a>&nbsp;&nbsp;
+  <a href="https://www.leetcode.com/adarsh5919" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" alt="LeetCode" />
   </a>
 </p>
 
