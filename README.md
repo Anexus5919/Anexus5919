@@ -14,7 +14,7 @@
         🔭 I'm currently working on <strong>full-stack projects</strong> and exploring <strong>LLMs and OS development</strong><br/><br/>
         🌱 Actively learning <strong>Data Structures & Algorithms</strong>, <strong>App Development</strong>, and <strong>LLM building</strong><br/><br/>
         🌍 Based in: <strong>Mumbai, India</strong><br/><br/>
-        🔗 Portfolio: <a href="https://anexus-portfolio.vercel.app"><strong>anexus-portfolio.vercel.app</strong></a><br/><br/>
+        🔗 Portfolio: <a href="https://anexus-portfolio-v2.vercel.app"><strong>Click here!</strong></a><br/><br/>
         📫 Reach me at: <strong>anexus5919@gmail.com</strong>
       </td>
       <td align="right">
@@ -33,7 +33,7 @@
   <a href="https://linkedin.com/in/adarsh-singh-80b339332" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
   </a>&nbsp;&nbsp;
-  <a href="https://anexus-portfolio.vercel.app" target="_blank">
+  <a href="https://anexus-portfolio-v2.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" alt="Portfolio" />
   </a>&nbsp;&nbsp;
   <a href="https://www.leetcode.com/adarsh5919" target="_blank">
