@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=700&lines=console.log(%22Hello%2C+World!%22);Adarsh+Singh+here!;Full-Stack+Developer+%7C+Open-Source+Contributor;Building+with+React%2C+Next.js%2C+Node.js+%26+more" alt="Typing SVG" />
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=Anexus5919&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Anexus5919&label=Profile%20Views&color=0e75b6&style=flat&base=1800" alt="Profile Views" />
 </p>
 
 <img align="center" width="100%" src="gh-space-shooter.webp" />
