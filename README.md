@@ -130,7 +130,7 @@
 
 <div align="center">
   <img width="49%" src="./profile/stats.svg" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Anexus5919&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Anexus5919&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak" />
 </div>
 
 <div align="center">
