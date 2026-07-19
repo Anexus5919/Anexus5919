@@ -129,12 +129,12 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Anexus5919&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="./profile/stats.svg" alt="GitHub Stats" />
   <img width="49%" src="https://streak-stats.demolab.com/?user=Anexus5919&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Anexus5919&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img width="40%" src="./profile/top-langs.svg" alt="Top Languages" />
 </div>
 
 ---
