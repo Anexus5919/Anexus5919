@@ -1,15 +1,51 @@
-
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#1a1b27" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#1a1b27" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource limits for this query exceeded.</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anexus5919's GitHub Stats">
+  <title>Anexus5919's GitHub Stats</title>
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; }
+    .rank-text { font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" width="494" height="194" fill="#1a1b27" stroke="none"/>
+  <g transform="translate(25, 35)">
+    <text class="header">Anexus5919's GitHub Stats</text>
+  </g>
+  <g transform="translate(0, 55)">
+    <g transform="translate(400, 60)">
+      <circle cx="0" cy="0" r="40" stroke="#70a5fd" stroke-width="6" fill="none" opacity="0.2"/>
+      <circle cx="0" cy="0" r="40" stroke="#70a5fd" stroke-width="6" fill="none"
+        stroke-dasharray="251.32741228718345" stroke-dashoffset="166.40915464565066"
+        stroke-linecap="round" transform="rotate(-90)"/>
+      <text class="rank-text" text-anchor="middle" dominant-baseline="central">A-</text>
+    </g>
+    <g transform="translate(25, 0)">
+    <g transform="translate(0, 0)">
+      <svg x="0" y="0" viewBox="0 0 16 16" width="16" height="16" fill="#bf91f3">
+        <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+      </svg>
+      <text x="25" y="12.5" fill="#38bdae" font-size="14">Total Stars Earned:</text>
+      <text x="219" y="12.5" fill="#38bdae" font-size="14" font-weight="600" text-anchor="end">16</text>
+    </g>
+    <g transform="translate(0, 25)">
+      <svg x="0" y="0" viewBox="0 0 16 16" width="16" height="16" fill="#bf91f3">
+        <path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>
+      </svg>
+      <text x="25" y="12.5" fill="#38bdae" font-size="14">Total Commits:</text>
+      <text x="219" y="12.5" fill="#38bdae" font-size="14" font-weight="600" text-anchor="end">1,363</text>
+    </g>
+    <g transform="translate(0, 50)">
+      <svg x="0" y="0" viewBox="0 0 16 16" width="16" height="16" fill="#bf91f3">
+        <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"/>
+      </svg>
+      <text x="25" y="12.5" fill="#38bdae" font-size="14">Total PRs:</text>
+      <text x="219" y="12.5" fill="#38bdae" font-size="14" font-weight="600" text-anchor="end">1,012</text>
+    </g>
+    <g transform="translate(0, 75)">
+      <svg x="0" y="0" viewBox="0 0 16 16" width="16" height="16" fill="#bf91f3">
+        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
+      </svg>
+      <text x="25" y="12.5" fill="#38bdae" font-size="14">Total Issues:</text>
+      <text x="219" y="12.5" fill="#38bdae" font-size="14" font-weight="600" text-anchor="end">949</text>
+    </g>
+    </g>
+  </g>
+</svg>
