@@ -43,19 +43,28 @@ async function gql(query, attempt = 1) {
 
   const body = await res.json().catch(() => null);
   const limited = body?.errors?.some((e) => e.type === "RESOURCE_LIMITS_EXCEEDED");
+  const bad = !res.ok || body?.errors || !body?.data;
 
-  if ((!res.ok || body?.errors) && attempt < 4) {
-    await sleep(limited ? 5000 * attempt : 1500 * attempt);
+  if (bad && attempt < 4) {
+    // The resource budget refills over time, so back off hard when we trip it.
+    await sleep(limited ? 15000 * attempt : 2000 * attempt);
     return gql(query, attempt + 1);
   }
   if (body?.errors) {
     throw new Error(body.errors.map((e) => e.message).join("; "));
   }
+  if (!body?.data) {
+    throw new Error(`HTTP ${res.status}, no data in response`);
+  }
   return body.data;
 }
 
 /** Fetches one stat, returning null instead of throwing so one failure can't sink the card. */
+let first = true;
 async function stat(name, query, pick) {
+  // Space the requests out; firing them back to back is what drains the budget.
+  if (!first) await sleep(2000);
+  first = false;
   try {
     const value = pick(await gql(query));
     console.log(`  ${name}: ${value}`);

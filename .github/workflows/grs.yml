@@ -11,6 +11,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Order matters. All GraphQL calls here share one resource budget, and this
+      # account is active enough to drain it. The cheap card goes first; the
+      # expensive one goes last, after the budget has had time to refill.
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Let the GraphQL resource budget refill
+        run: sleep 60
+
       # The upstream stats card can't be used here: this account's activity makes
       # the single combined GraphQL query exceed GitHub's resource budget, so it
       # always renders an error. This script fetches each stat separately.
@@ -21,13 +35,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT: profile/stats.svg
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # Never let an error card reach the README; keep the last good one instead.
+      - name: Discard any error cards
+        run: |
+          for f in profile/*.svg; do
+            if grep -q "Something went wrong" "$f"; then
+              echo "::warning::$f rendered an error card, restoring previous version"
+              git checkout -- "$f" || rm -f "$f"
+            fi
+          done
 
       - name: Commit cards
         run: |
