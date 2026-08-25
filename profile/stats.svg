@@ -13,7 +13,7 @@
     <g transform="translate(400, 60)">
       <circle cx="0" cy="0" r="40" stroke="#70a5fd" stroke-width="6" fill="none" opacity="0.2"/>
       <circle cx="0" cy="0" r="40" stroke="#70a5fd" stroke-width="6" fill="none"
-        stroke-dasharray="251.32741228718345" stroke-dashoffset="146.67140324199158"
+        stroke-dasharray="251.32741228718345" stroke-dashoffset="147.4414014414009"
         stroke-linecap="round" transform="rotate(-90)"/>
       <text class="rank-text" text-anchor="middle" dominant-baseline="central">B+</text>
     </g>
